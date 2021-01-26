@@ -95,6 +95,12 @@ select:-webkit-autofill {
 		vertical-align: baseline;
 	}
 	
+	.googleform {
+		background-color: #bbb;
+		margin: auto;
+		display:block;
+	}
+	
 
 	article, aside, details, figcaption, figure,
 	footer, header, hgroup, menu, nav, section {
