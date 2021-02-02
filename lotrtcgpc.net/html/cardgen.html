@@ -15,101 +15,61 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<header id="header" class="reveal">
-					<h1><a href="index.html">Player's Council</a> for the Lord of the Rings TCG</h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="communities.html">Communities</a></li>
-							
-							<li>
-								<a href="#" class="icon solid fa-angle-down">Leagues and Events</a>
-								<ul>
-									<li><a href="leagues.html">Monthly League</a></li>
-									<li><a href="leaguewins.html">Past League Winners</a></li>		
-								</ul>
-							</li>
-							
-							<li>
-								<a href="#" class="icon solid fa-angle-down">Virtual Cards</a>
-								<ul>
-									<li><a href="templates.html">Card Templates</a></li>
-									<li><a href="cardgen.html">Card Generator</a></li>
-								</ul>
-							</li>
-							
-							<li><a href="about.html">About Us</a></li>
-							<li><a href="newstart.html" class="button">Where To Start</a></li>
-							<li><a href="http://www.gempukku.com/gemp-lotr/hall.html" class="button">Play on Gemp</a></li>
-						</ul>
-					</nav>
-				</header>
+			<div data-include="header"></div>
 
 			<!-- Main -->
-				<section id="main" class="container">
-					<header>
-						<h2>nanDECK Card Generator</h2>
-						<p>How to create high-quality virtual dream cards in a snap.</p>
-					</header>
-					<div class="box">
-						<span class="image featured"><img src="images/cardgen_banner.jpg" alt="" /></span>
-						<h3>What is nanDECK?</h3>
-						<p><a href="http://www.nandeck.com/">nanDECK</a> is a program dedicated entirely to laying out CCG cards.  It reads data from a spreadsheet (one row per card) and then transforms that data into a fully-formed card, based on the parameters of the script.  
-						<br><br>
-						The PC maintains a script that generates Lord of the Rings TCG cards.  All you have to do is fill out the spreadsheet, and nanDECK will do the rest, transforming your data into the cards of your dreams.</p>
-						<div class="row">
-							<div class="row-6 row-12-mobilep">
-								<h3>Where do I get it?</h3>
-								<p>The latest zip package containing nanDECK, the script, and card templates <a href="https://lotrtcgpc.net/cardgenerator/latest">can be downloaded here</a>.
-									<br><br>
-									Past packaged versions <a href="https://github.com/PlayersCouncil/LotR-TCG_card_generator/releases">can be found here</a>.
-									<br><br>
-									The code <a href="https://github.com/PlayersCouncil/LotR-TCG_card_generator">can be found on the PC github here</a>. </p>
-							</div>
-							<div class="row-6 row-12-mobilep">
-								<h3>How do I use it?</h3>
-								<p>The TL;DR is:
-									<ol>
-										<li>Download and extract the card generator package.</li>
-										<li>Edit cards.csv to include the cards you want (one card per row).</li>
-										<li>Run nanDECK, open the script, and build the cards.</li>
-									</ol>
-									<br><br>
-									That's it!  
-									<br>
-									Here is a YouTube tutorial video with a demonstration:
-									<br><br>
-									<div style="position: relative; width:100%; height:0; padding-top: 56.25%;">
-										<iframe style="position: absolute; top: 0; left:0;bottom:0;right:0;width:100%; height: 100%"
-											src="https://www.youtube.com/embed/46KzoN6pUQc">
-										</iframe> 
-									</div>
-									<br>
-									If you need further help, there are detailed instructions included in the release (Generator_Tutorial_and_Documentation.pdf), which you can also <a href="https://docs.google.com/document/d/1cNroWUOQIsaYW1oCn4Mb5EtAfMQXgrekxR5INhLkkYc/edit?usp=sharing">view as a google doc here</a>.
-									<br><br>
-									If you are looking for higher-resolution templates than the ones included in the package, <a href="templates.html">see the page here to download those</a>.
-									<br><br>
-									If you can't find the answer to your question in there, please reach out to ketura on the <a href="https://lotrtcgpc.net/discord">PC Discord server</a>, or send an email to <a href="mailto:generator@lotrtcgpc.net">generator@lotrtcgpc.net</a>.
-								</p>
-							</div>
+			<section id="main" class="container">
+				<header>
+					<h2>nanDECK Card Generator</h2>
+					<p>How to create high-quality virtual dream cards in a snap.</p>
+				</header>
+				<div class="box">
+					<span class="image featured"><img src="images/cardgen_banner.jpg" alt="" /></span>
+					<h3>What is nanDECK?</h3>
+					<p><a href="http://www.nandeck.com/">nanDECK</a> is a program dedicated entirely to laying out CCG cards.  It reads data from a spreadsheet (one row per card) and then transforms that data into a fully-formed card, based on the parameters of the script.  
+					<br><br>
+					The PC maintains a script that generates Lord of the Rings TCG cards.  All you have to do is fill out the spreadsheet, and nanDECK will do the rest, transforming your data into the cards of your dreams.</p>
+					<div class="row">
+						<div class="row-6 row-12-mobilep">
+							<h3>Where do I get it?</h3>
+							<p>The latest zip package containing nanDECK, the script, and card templates <a href="https://lotrtcgpc.net/cardgenerator/latest">can be downloaded here</a>.
+								<br><br>
+								Past packaged versions <a href="https://github.com/PlayersCouncil/LotR-TCG_card_generator/releases">can be found here</a>.
+								<br><br>
+								The code <a href="https://github.com/PlayersCouncil/LotR-TCG_card_generator">can be found on the PC github here</a>. </p>
+						</div>
+						<div class="row-6 row-12-mobilep">
+							<h3>How do I use it?</h3>
+							<p>The TL;DR is:
+								<ol>
+									<li>Download and extract the card generator package.</li>
+									<li>Edit cards.csv to include the cards you want (one card per row).</li>
+									<li>Run nanDECK, open the script, and build the cards.</li>
+								</ol>
+								<br><br>
+								That's it!  
+								<br>
+								Here is a YouTube tutorial video with a demonstration:
+								<br><br>
+								<div style="position: relative; width:100%; height:0; padding-top: 56.25%;">
+									<iframe style="position: absolute; top: 0; left:0;bottom:0;right:0;width:100%; height: 100%"
+										src="https://www.youtube.com/embed/46KzoN6pUQc">
+									</iframe> 
+								</div>
+								<br>
+								If you need further help, there are detailed instructions included in the release (Generator_Tutorial_and_Documentation.pdf), which you can also <a href="https://docs.google.com/document/d/1cNroWUOQIsaYW1oCn4Mb5EtAfMQXgrekxR5INhLkkYc/edit?usp=sharing">view as a google doc here</a>.
+								<br><br>
+								If you are looking for higher-resolution templates than the ones included in the package, <a href="templates.html">see the page here to download those</a>.
+								<br><br>
+								If you can't find the answer to your question in there, please reach out to ketura on the <a href="https://lotrtcgpc.net/discord">PC Discord server</a>, or send an email to <a href="mailto:generator@lotrtcgpc.net">generator@lotrtcgpc.net</a>.
+							</p>
 						</div>
 					</div>
-				</section>
+				</div>
+			</section>
 
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="https://lotrtcgpc.net/discord" class="icon brands fa-discord"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.facebook.com/lotrtcgpc" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="https://www.youtube.com/channel/UCI1mZ97DiemTbnDTA_ukkkA" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
-						<li><a href="https://www.twitch.tv/playerscouncil" class="icon brands fa-twitch"><span class="label">Twitch</span></a></li>
-						<li><a href="https://www.instagram.com/lotr_playerscouncil/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="https://github.com/PlayersCouncil" class="icon brands fa-github"><span class="label">Github</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>The Player's Council is an unofficial player group.  All materials are distributed for personal non-commercial use.</li><li>Website template design: "Alpha" from <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</footer>
+		<!-- Footer -->
+		<div data-include="footer"></div>
 
 		</div>
 
@@ -121,6 +81,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			
 	</body>
 </html>
