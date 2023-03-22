@@ -3471,7 +3471,7 @@ select:-webkit-autofill {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 150%;
 			}
 
 		/* Header */
