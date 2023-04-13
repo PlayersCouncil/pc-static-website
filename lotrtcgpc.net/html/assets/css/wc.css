@@ -1,0 +1,21 @@
+li.sponsor-cgg {
+  color: #61DAB7;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+li.sponsor-cgg:hover {
+  text-decoration-style: solid;
+  cursor: help;
+}
+
+li.sponsor-c1g {
+  color: #FF9F00;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+li.sponsor-c1g:hover {
+  text-decoration-style: solid;
+  cursor: help;
+}
