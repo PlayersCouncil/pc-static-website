@@ -1,6 +1,10 @@
 .box {
-		background: #0e0f0f;
-	}
+	background: #0e0f0f;
+}
+
+#header {
+	background: #2578AB;
+}
 	
 a, h3 a {
 	color: #2EB7E3;
