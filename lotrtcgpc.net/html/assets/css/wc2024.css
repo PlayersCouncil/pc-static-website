@@ -1,0 +1,27 @@
+.box {
+		background: #0e0f0f;
+	}
+	
+a, h3 a {
+	color: #2EB7E3;
+}
+
+#page-wrapper {
+	margin-top: 0;
+	padding: 0;
+}
+
+.schedule-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	position: relative;
+	gap: 1em;
+}
+
+.schedule-flex div {
+	max-width: 50%;
+	min-width: 40%;
+	flex-grow: 1;
+	flex-shrink: 1;
+}
